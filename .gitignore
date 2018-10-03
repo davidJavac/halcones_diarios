@@ -1,0 +1,11 @@
+.settings/
+bin/
+imagenes/
+
+*.png
+
+lib/
+*.class
+
+*.log
+*.sql

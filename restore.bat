@@ -1,0 +1,1 @@
+C:\wamp64\bin\mysql\mysql5.7.19\bin\mysql halcones_diarios_new --host=localhost --port=3306 --user=root --password=  < C:\Users\david\Documents\back3.sql
