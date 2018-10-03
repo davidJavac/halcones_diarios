@@ -19,8 +19,8 @@ public class Conexion {
 			//conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/halcones_diarios_a?autoReconnect=true&useSSL=false"
 					
 			//conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/halcones_diarios?autoReconnect=true&useSSL=false"
-			, "hdEnterprise", "h15diarioStart");
-			//, "root", "");
+			
+			, "root", "");
 		} catch (Exception e) {
 				// TODO Auto-generated catch block
 			Mensajes.getMensaje_conexionError();
