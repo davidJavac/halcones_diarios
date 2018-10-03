@@ -14,11 +14,8 @@ public class Conexion {
 		
 	public static Connection getConexion(){
 			
-		try {
-			conexion = DriverManager.getConnection("jdbc:mysql://192.168.0.100:3306/halcones_diarios_a?autoReconnect=true&useSSL=false"
-			//conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/halcones_diarios_a?autoReconnect=true&useSSL=false"
-					
-			//conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/halcones_diarios?autoReconnect=true&useSSL=false"
+		try {		
+			conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/halcones_diarios?autoReconnect=true&useSSL=false"
 			
 			, "root", "");
 		} catch (Exception e) {
